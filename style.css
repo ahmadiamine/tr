@@ -1,0 +1,107 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.background {
+    background-image: url('back.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.info p {
+    margin: 8px 0;
+    font-size: 25px;
+}
+
+.label {
+    color: darkblue;
+}
+
+.skills {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.section {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+}
+
+.videos, .images, .clients {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.videos video, .images img, .clients img {
+    width: 60%;
+    max-width: 250px;
+    height: auto;
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .videos video, .images img, .clients img {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+#vide {
+    color: blue;
+    font-size: 45px;
+}
+
+#sss {
+    color: blue;
+}
+
+#sizz {
+    font-size: 30px;
+}
+
+#sia {
+    color: black;
+}
+
+#ex {
+    font-size: 27px;
+}
+
+#aa {
+    border: none;
+    border-top: 2px solid black;
+    margin: 20px 0;
+}
+
+.z{background-color: rgba(138, 138, 138);
+height: 5px}
